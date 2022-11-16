@@ -160,9 +160,9 @@ namespace TPG6.Formularios.Producto
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(488, 27);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 19);
+            this.label2.Size = new System.Drawing.Size(72, 19);
             this.label2.TabIndex = 12;
-            this.label2.Text = "Precio";
+            this.label2.Text = "Precio (*)";
             // 
             // txtNombreProducto
             // 
@@ -178,9 +178,9 @@ namespace TPG6.Formularios.Producto
             this.lblNombreProducto.ForeColor = System.Drawing.Color.White;
             this.lblNombreProducto.Location = new System.Drawing.Point(262, 27);
             this.lblNombreProducto.Name = "lblNombreProducto";
-            this.lblNombreProducto.Size = new System.Drawing.Size(131, 19);
+            this.lblNombreProducto.Size = new System.Drawing.Size(151, 19);
             this.lblNombreProducto.TabIndex = 10;
-            this.lblNombreProducto.Text = "Nombre Producto";
+            this.lblNombreProducto.Text = "Nombre Producto (*)";
             // 
             // cmbTipoProducto1
             // 
@@ -197,9 +197,9 @@ namespace TPG6.Formularios.Producto
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(42, 27);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(105, 19);
+            this.label4.Size = new System.Drawing.Size(125, 19);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Tipo Producto";
+            this.label4.Text = "Tipo Producto (*)";
             // 
             // lblRegistroProd
             // 

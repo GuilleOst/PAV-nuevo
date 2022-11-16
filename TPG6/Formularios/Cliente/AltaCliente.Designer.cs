@@ -54,9 +54,9 @@ namespace TPG6.Formularios.Cliente
             // lblTitulo
             // 
             this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblTitulo.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold);
             this.lblTitulo.ForeColor = System.Drawing.Color.White;
-            this.lblTitulo.Location = new System.Drawing.Point(110, 32);
+            this.lblTitulo.Location = new System.Drawing.Point(94, 28);
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(127, 30);
             this.lblTitulo.TabIndex = 28;
@@ -84,17 +84,17 @@ namespace TPG6.Formularios.Cliente
             this.panelBackAltaPromocion.Controls.Add(this.lblNombre);
             this.panelBackAltaPromocion.Controls.Add(this.lblApellido);
             this.panelBackAltaPromocion.ForeColor = System.Drawing.Color.White;
-            this.panelBackAltaPromocion.Location = new System.Drawing.Point(110, 87);
+            this.panelBackAltaPromocion.Location = new System.Drawing.Point(94, 75);
             this.panelBackAltaPromocion.Name = "panelBackAltaPromocion";
-            this.panelBackAltaPromocion.Size = new System.Drawing.Size(580, 346);
+            this.panelBackAltaPromocion.Size = new System.Drawing.Size(554, 300);
             this.panelBackAltaPromocion.TabIndex = 29;
             // 
             // mtbNacimiento
             // 
-            this.mtbNacimiento.Location = new System.Drawing.Point(162, 214);
+            this.mtbNacimiento.Location = new System.Drawing.Point(139, 185);
             this.mtbNacimiento.Mask = "00/00/0000";
             this.mtbNacimiento.Name = "mtbNacimiento";
-            this.mtbNacimiento.Size = new System.Drawing.Size(120, 23);
+            this.mtbNacimiento.Size = new System.Drawing.Size(103, 20);
             this.mtbNacimiento.TabIndex = 31;
             this.mtbNacimiento.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.mtbNacimiento.ValidatingType = typeof(System.DateTime);
@@ -102,35 +102,35 @@ namespace TPG6.Formularios.Cliente
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(28, 212);
+            this.label3.Location = new System.Drawing.Point(3, 185);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(104, 21);
+            this.label3.Size = new System.Drawing.Size(123, 21);
             this.label3.TabIndex = 30;
-            this.label3.Text = "Nacimiento:";
+            this.label3.Text = "Nacimiento (*)";
             // 
             // lblError
             // 
             this.lblError.AutoSize = true;
             this.lblError.ForeColor = System.Drawing.Color.Red;
-            this.lblError.Location = new System.Drawing.Point(50, 271);
+            this.lblError.Location = new System.Drawing.Point(43, 235);
             this.lblError.Name = "lblError";
-            this.lblError.Size = new System.Drawing.Size(0, 15);
+            this.lblError.Size = new System.Drawing.Size(0, 13);
             this.lblError.TabIndex = 29;
             // 
             // txtApellido
             // 
-            this.txtApellido.Location = new System.Drawing.Point(390, 99);
+            this.txtApellido.Location = new System.Drawing.Point(396, 89);
             this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(155, 23);
+            this.txtApellido.Size = new System.Drawing.Size(133, 20);
             this.txtApellido.TabIndex = 28;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(127, 95);
+            this.txtNombre.Location = new System.Drawing.Point(119, 85);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(155, 23);
+            this.txtNombre.Size = new System.Drawing.Size(133, 20);
             this.txtNombre.TabIndex = 27;
             // 
             // btnCargarCliente
@@ -138,10 +138,10 @@ namespace TPG6.Formularios.Cliente
             this.btnCargarCliente.BackColor = System.Drawing.SystemColors.HotTrack;
             this.btnCargarCliente.FlatAppearance.BorderSize = 0;
             this.btnCargarCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCargarCliente.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCargarCliente.Location = new System.Drawing.Point(434, 271);
+            this.btnCargarCliente.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.btnCargarCliente.Location = new System.Drawing.Point(372, 235);
             this.btnCargarCliente.Name = "btnCargarCliente";
-            this.btnCargarCliente.Size = new System.Drawing.Size(111, 37);
+            this.btnCargarCliente.Size = new System.Drawing.Size(95, 32);
             this.btnCargarCliente.TabIndex = 24;
             this.btnCargarCliente.Text = "Cargar";
             this.btnCargarCliente.UseVisualStyleBackColor = false;
@@ -149,67 +149,67 @@ namespace TPG6.Formularios.Cliente
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(390, 154);
+            this.txtEmail.Location = new System.Drawing.Point(396, 136);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(155, 23);
+            this.txtEmail.Size = new System.Drawing.Size(133, 20);
             this.txtEmail.TabIndex = 26;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(295, 156);
+            this.label2.Location = new System.Drawing.Point(273, 137);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 21);
+            this.label2.Size = new System.Drawing.Size(76, 21);
             this.label2.TabIndex = 25;
-            this.label2.Text = "Email:";
+            this.label2.Text = "Email (*)";
             // 
             // mtbTelefono
             // 
-            this.mtbTelefono.Location = new System.Drawing.Point(127, 154);
+            this.mtbTelefono.Location = new System.Drawing.Point(119, 136);
             this.mtbTelefono.Mask = "99999999999";
             this.mtbTelefono.Name = "mtbTelefono";
-            this.mtbTelefono.Size = new System.Drawing.Size(155, 23);
+            this.mtbTelefono.Size = new System.Drawing.Size(133, 20);
             this.mtbTelefono.TabIndex = 24;
             this.mtbTelefono.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lblTelefono
             // 
             this.lblTelefono.AutoSize = true;
-            this.lblTelefono.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblTelefono.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.lblTelefono.ForeColor = System.Drawing.Color.White;
-            this.lblTelefono.Location = new System.Drawing.Point(28, 156);
+            this.lblTelefono.Location = new System.Drawing.Point(3, 130);
             this.lblTelefono.Name = "lblTelefono";
-            this.lblTelefono.Size = new System.Drawing.Size(81, 21);
+            this.lblTelefono.Size = new System.Drawing.Size(100, 21);
             this.lblTelefono.TabIndex = 23;
-            this.lblTelefono.Text = "Teléfono:";
+            this.lblTelefono.Text = "Teléfono (*)";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(295, 37);
+            this.label1.Location = new System.Drawing.Point(273, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 21);
+            this.label1.Size = new System.Drawing.Size(101, 21);
             this.label1.TabIndex = 22;
-            this.label1.Text = "Tipo Doc:";
+            this.label1.Text = "Tipo Doc (*)";
             // 
             // cbTipoDoc
             // 
             this.cbTipoDoc.FormattingEnabled = true;
-            this.cbTipoDoc.Location = new System.Drawing.Point(390, 35);
+            this.cbTipoDoc.Location = new System.Drawing.Point(396, 33);
             this.cbTipoDoc.Name = "cbTipoDoc";
-            this.cbTipoDoc.Size = new System.Drawing.Size(155, 23);
+            this.cbTipoDoc.Size = new System.Drawing.Size(133, 21);
             this.cbTipoDoc.TabIndex = 21;
             // 
             // mtbDni
             // 
-            this.mtbDni.Location = new System.Drawing.Point(127, 35);
+            this.mtbDni.Location = new System.Drawing.Point(119, 34);
             this.mtbDni.Mask = "99999999";
             this.mtbDni.Name = "mtbDni";
-            this.mtbDni.Size = new System.Drawing.Size(155, 23);
+            this.mtbDni.Size = new System.Drawing.Size(133, 20);
             this.mtbDni.TabIndex = 20;
             this.mtbDni.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.mtbDni.ValidatingType = typeof(int);
@@ -217,42 +217,42 @@ namespace TPG6.Formularios.Cliente
             // lblDni
             // 
             this.lblDni.AutoSize = true;
-            this.lblDni.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDni.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.lblDni.ForeColor = System.Drawing.Color.White;
-            this.lblDni.Location = new System.Drawing.Point(28, 37);
+            this.lblDni.Location = new System.Drawing.Point(15, 28);
             this.lblDni.Name = "lblDni";
-            this.lblDni.Size = new System.Drawing.Size(44, 21);
+            this.lblDni.Size = new System.Drawing.Size(63, 21);
             this.lblDni.TabIndex = 19;
-            this.lblDni.Text = "DNI:";
+            this.lblDni.Text = "DNI (*)";
             // 
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblNombre.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.lblNombre.ForeColor = System.Drawing.Color.White;
-            this.lblNombre.Location = new System.Drawing.Point(28, 97);
+            this.lblNombre.Location = new System.Drawing.Point(3, 79);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(77, 21);
+            this.lblNombre.Size = new System.Drawing.Size(96, 21);
             this.lblNombre.TabIndex = 15;
-            this.lblNombre.Text = "Nombre:";
+            this.lblNombre.Text = "Nombre (*)";
             // 
             // lblApellido
             // 
             this.lblApellido.AutoSize = true;
-            this.lblApellido.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblApellido.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.lblApellido.ForeColor = System.Drawing.Color.White;
-            this.lblApellido.Location = new System.Drawing.Point(295, 97);
+            this.lblApellido.Location = new System.Drawing.Point(273, 86);
             this.lblApellido.Name = "lblApellido";
-            this.lblApellido.Size = new System.Drawing.Size(79, 21);
+            this.lblApellido.Size = new System.Drawing.Size(98, 21);
             this.lblApellido.TabIndex = 16;
-            this.lblApellido.Text = "Apellido:";
+            this.lblApellido.Text = "Apellido (*)";
             // 
             // AltaCliente
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.ClientSize = new System.Drawing.Size(801, 517);
+            this.ClientSize = new System.Drawing.Size(732, 448);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.panelBackAltaPromocion);
             this.Name = "AltaCliente";

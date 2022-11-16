@@ -758,15 +758,15 @@ namespace TPG6.DataSetFormatoTableAdapters {
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_descripcion", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "descripcion", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[Formato] ([descripcion]) VALUES (@descripcion);\nSELECT codForm" +
-                "ato, descripcion FROM Formato WHERE (codFormato = SCOPE_IDENTITY())";
+            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[Formato] ([descripcion]) VALUES (@descripcion);\r\nSELECT codFor" +
+                "mato, descripcion FROM Formato WHERE (codFormato = SCOPE_IDENTITY())";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@descripcion", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "descripcion", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.UpdateCommand.Connection = this.Connection;
             this._adapter.UpdateCommand.CommandText = "UPDATE [dbo].[Formato] SET [descripcion] = @descripcion WHERE (([codFormato] = @O" +
-                "riginal_codFormato) AND ([descripcion] = @Original_descripcion));\nSELECT codForm" +
-                "ato, descripcion FROM Formato WHERE (codFormato = @codFormato)";
+                "riginal_codFormato) AND ([descripcion] = @Original_descripcion));\r\nSELECT codFor" +
+                "mato, descripcion FROM Formato WHERE (codFormato = @codFormato)";
             this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@descripcion", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "descripcion", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_codFormato", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "codFormato", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));

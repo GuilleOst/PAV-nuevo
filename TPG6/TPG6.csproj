@@ -176,6 +176,9 @@
     <Compile Include="Estadisticas\Empleado\EstadisticaEmpleado.Designer.cs">
       <DependentUpon>EstadisticaEmpleado.cs</DependentUpon>
     </Compile>
+    <Compile Include="Estadisticas\Funcion\DataSet1ReporteFuncionxsd.cs">
+      <DependentUpon>DataSet1ReporteFuncionxsd.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Estadisticas\Funcion\DataSet1ReporteFuncionxsd.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

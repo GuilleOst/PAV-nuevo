@@ -198,7 +198,7 @@ namespace TPG6.Estadisticas.PrecioDescuento
             // rpvPrecioDescuento
             // 
             this.rpvPrecioDescuento.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rpvPrecioDescuento.LocalReport.ReportEmbeddedResource = "ProbandoMigrar.Estadisticas.PrecioDescuento.EstadisticaPrecioDescuento.rdlc";
+            this.rpvPrecioDescuento.LocalReport.ReportEmbeddedResource = "TPG6.Estadisticas.PrecioDescuento.EstadisticaPrecioDescuento.rdlc";
             this.rpvPrecioDescuento.Location = new System.Drawing.Point(0, 169);
             this.rpvPrecioDescuento.Name = "rpvPrecioDescuento";
             this.rpvPrecioDescuento.ServerReport.BearerToken = null;

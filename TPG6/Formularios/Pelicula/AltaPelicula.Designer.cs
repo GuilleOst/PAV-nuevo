@@ -205,9 +205,9 @@ namespace TPG6.Formularios.Pelicula
             this.lblDistribuidora.ForeColor = System.Drawing.Color.White;
             this.lblDistribuidora.Location = new System.Drawing.Point(308, 116);
             this.lblDistribuidora.Name = "lblDistribuidora";
-            this.lblDistribuidora.Size = new System.Drawing.Size(97, 19);
+            this.lblDistribuidora.Size = new System.Drawing.Size(117, 19);
             this.lblDistribuidora.TabIndex = 32;
-            this.lblDistribuidora.Text = "Distribuidora";
+            this.lblDistribuidora.Text = "Distribuidora (*)";
             // 
             // cmbGenero
             // 
@@ -224,9 +224,9 @@ namespace TPG6.Formularios.Pelicula
             this.lblGenero.ForeColor = System.Drawing.Color.White;
             this.lblGenero.Location = new System.Drawing.Point(146, 117);
             this.lblGenero.Name = "lblGenero";
-            this.lblGenero.Size = new System.Drawing.Size(58, 19);
+            this.lblGenero.Size = new System.Drawing.Size(78, 19);
             this.lblGenero.TabIndex = 30;
-            this.lblGenero.Text = "Genero";
+            this.lblGenero.Text = "Genero (*)";
             // 
             // cmbFormato
             // 
@@ -243,9 +243,9 @@ namespace TPG6.Formularios.Pelicula
             this.lblFormato.ForeColor = System.Drawing.Color.White;
             this.lblFormato.Location = new System.Drawing.Point(23, 117);
             this.lblFormato.Name = "lblFormato";
-            this.lblFormato.Size = new System.Drawing.Size(66, 19);
+            this.lblFormato.Size = new System.Drawing.Size(86, 19);
             this.lblFormato.TabIndex = 28;
-            this.lblFormato.Text = "Formato";
+            this.lblFormato.Text = "Formato (*)";
             // 
             // cmbCalificacion
             // 
@@ -262,9 +262,9 @@ namespace TPG6.Formularios.Pelicula
             this.lblCalificacion.ForeColor = System.Drawing.Color.White;
             this.lblCalificacion.Location = new System.Drawing.Point(382, 65);
             this.lblCalificacion.Name = "lblCalificacion";
-            this.lblCalificacion.Size = new System.Drawing.Size(86, 19);
+            this.lblCalificacion.Size = new System.Drawing.Size(106, 19);
             this.lblCalificacion.TabIndex = 26;
-            this.lblCalificacion.Text = "Calificacion";
+            this.lblCalificacion.Text = "Calificacion (*)";
             // 
             // cmbOrigen
             // 
@@ -281,9 +281,9 @@ namespace TPG6.Formularios.Pelicula
             this.lblOrigen.ForeColor = System.Drawing.Color.White;
             this.lblOrigen.Location = new System.Drawing.Point(147, 65);
             this.lblOrigen.Name = "lblOrigen";
-            this.lblOrigen.Size = new System.Drawing.Size(55, 19);
+            this.lblOrigen.Size = new System.Drawing.Size(75, 19);
             this.lblOrigen.TabIndex = 24;
-            this.lblOrigen.Text = "Origen";
+            this.lblOrigen.Text = "Origen (*)";
             // 
             // txtEstreno
             // 
@@ -299,9 +299,9 @@ namespace TPG6.Formularios.Pelicula
             this.lblañoEstreno.ForeColor = System.Drawing.Color.White;
             this.lblañoEstreno.Location = new System.Drawing.Point(24, 65);
             this.lblañoEstreno.Name = "lblañoEstreno";
-            this.lblañoEstreno.Size = new System.Drawing.Size(89, 19);
+            this.lblañoEstreno.Size = new System.Drawing.Size(109, 19);
             this.lblañoEstreno.TabIndex = 22;
-            this.lblañoEstreno.Text = "Año Estreno";
+            this.lblañoEstreno.Text = "Año Estreno (*)";
             // 
             // txtSinopsis
             // 
@@ -317,9 +317,9 @@ namespace TPG6.Formularios.Pelicula
             this.lblSinopsis.ForeColor = System.Drawing.Color.White;
             this.lblSinopsis.Location = new System.Drawing.Point(382, 9);
             this.lblSinopsis.Name = "lblSinopsis";
-            this.lblSinopsis.Size = new System.Drawing.Size(63, 19);
+            this.lblSinopsis.Size = new System.Drawing.Size(83, 19);
             this.lblSinopsis.TabIndex = 20;
-            this.lblSinopsis.Text = "Sinopsis";
+            this.lblSinopsis.Text = "Sinopsis (*)";
             // 
             // txtDuracion
             // 
@@ -335,9 +335,9 @@ namespace TPG6.Formularios.Pelicula
             this.lblDuracion.ForeColor = System.Drawing.Color.White;
             this.lblDuracion.Location = new System.Drawing.Point(263, 9);
             this.lblDuracion.Name = "lblDuracion";
-            this.lblDuracion.Size = new System.Drawing.Size(69, 19);
+            this.lblDuracion.Size = new System.Drawing.Size(89, 19);
             this.lblDuracion.TabIndex = 18;
-            this.lblDuracion.Text = "Duración";
+            this.lblDuracion.Text = "Duración (*)";
             // 
             // txtLeyenda
             // 
@@ -353,9 +353,9 @@ namespace TPG6.Formularios.Pelicula
             this.lblLeyenda.ForeColor = System.Drawing.Color.White;
             this.lblLeyenda.Location = new System.Drawing.Point(147, 9);
             this.lblLeyenda.Name = "lblLeyenda";
-            this.lblLeyenda.Size = new System.Drawing.Size(65, 19);
+            this.lblLeyenda.Size = new System.Drawing.Size(85, 19);
             this.lblLeyenda.TabIndex = 16;
-            this.lblLeyenda.Text = "Leyenda";
+            this.lblLeyenda.Text = "Leyenda (*)";
             // 
             // txtTitulo
             // 
@@ -371,9 +371,9 @@ namespace TPG6.Formularios.Pelicula
             this.lblTitulo.ForeColor = System.Drawing.Color.White;
             this.lblTitulo.Location = new System.Drawing.Point(24, 9);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(47, 19);
+            this.lblTitulo.Size = new System.Drawing.Size(67, 19);
             this.lblTitulo.TabIndex = 14;
-            this.lblTitulo.Text = "Titulo";
+            this.lblTitulo.Text = "Titulo (*)";
             // 
             // btnLimpiarCampos
             // 
@@ -430,9 +430,9 @@ namespace TPG6.Formularios.Pelicula
             this.lblIdioma.ForeColor = System.Drawing.Color.White;
             this.lblIdioma.Location = new System.Drawing.Point(488, 116);
             this.lblIdioma.Name = "lblIdioma";
-            this.lblIdioma.Size = new System.Drawing.Size(56, 19);
+            this.lblIdioma.Size = new System.Drawing.Size(76, 19);
             this.lblIdioma.TabIndex = 12;
-            this.lblIdioma.Text = "Idioma";
+            this.lblIdioma.Text = "Idioma (*)";
             // 
             // cmbIdioma
             // 

@@ -72,7 +72,7 @@ namespace TPG6.Formularios.Funcion
             this.panelBackAltaFuncion.Controls.Add(this.lblFechaHora);
             this.panelBackAltaFuncion.Location = new System.Drawing.Point(46, 54);
             this.panelBackAltaFuncion.Name = "panelBackAltaFuncion";
-            this.panelBackAltaFuncion.Size = new System.Drawing.Size(572, 310);
+            this.panelBackAltaFuncion.Size = new System.Drawing.Size(634, 310);
             this.panelBackAltaFuncion.TabIndex = 15;
             // 
             // lblError
@@ -88,7 +88,7 @@ namespace TPG6.Formularios.Funcion
             // 
             this.cmbFechaFin.Enabled = false;
             this.cmbFechaFin.FormattingEnabled = true;
-            this.cmbFechaFin.Location = new System.Drawing.Point(416, 67);
+            this.cmbFechaFin.Location = new System.Drawing.Point(487, 67);
             this.cmbFechaFin.Name = "cmbFechaFin";
             this.cmbFechaFin.Size = new System.Drawing.Size(104, 21);
             this.cmbFechaFin.TabIndex = 5;
@@ -96,7 +96,7 @@ namespace TPG6.Formularios.Funcion
             // cmbFechaInicio
             // 
             this.cmbFechaInicio.FormattingEnabled = true;
-            this.cmbFechaInicio.Location = new System.Drawing.Point(416, 22);
+            this.cmbFechaInicio.Location = new System.Drawing.Point(487, 22);
             this.cmbFechaInicio.Name = "cmbFechaInicio";
             this.cmbFechaInicio.Size = new System.Drawing.Size(104, 21);
             this.cmbFechaInicio.TabIndex = 4;
@@ -105,7 +105,7 @@ namespace TPG6.Formularios.Funcion
             // cmbEstado
             // 
             this.cmbEstado.FormattingEnabled = true;
-            this.cmbEstado.Location = new System.Drawing.Point(133, 162);
+            this.cmbEstado.Location = new System.Drawing.Point(166, 163);
             this.cmbEstado.Name = "cmbEstado";
             this.cmbEstado.Size = new System.Drawing.Size(138, 21);
             this.cmbEstado.TabIndex = 3;
@@ -113,7 +113,7 @@ namespace TPG6.Formularios.Funcion
             // cmbPeli
             // 
             this.cmbPeli.FormattingEnabled = true;
-            this.cmbPeli.Location = new System.Drawing.Point(133, 114);
+            this.cmbPeli.Location = new System.Drawing.Point(166, 115);
             this.cmbPeli.Name = "cmbPeli";
             this.cmbPeli.Size = new System.Drawing.Size(138, 21);
             this.cmbPeli.TabIndex = 2;
@@ -121,7 +121,7 @@ namespace TPG6.Formularios.Funcion
             // cmbSala
             // 
             this.cmbSala.FormattingEnabled = true;
-            this.cmbSala.Location = new System.Drawing.Point(133, 67);
+            this.cmbSala.Location = new System.Drawing.Point(166, 68);
             this.cmbSala.Name = "cmbSala";
             this.cmbSala.Size = new System.Drawing.Size(138, 21);
             this.cmbSala.TabIndex = 1;
@@ -146,22 +146,22 @@ namespace TPG6.Formularios.Funcion
             this.lblFechaInicio.AutoSize = true;
             this.lblFechaInicio.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.lblFechaInicio.ForeColor = System.Drawing.Color.White;
-            this.lblFechaInicio.Location = new System.Drawing.Point(307, 23);
+            this.lblFechaInicio.Location = new System.Drawing.Point(358, 23);
             this.lblFechaInicio.Name = "lblFechaInicio";
-            this.lblFechaInicio.Size = new System.Drawing.Size(105, 21);
+            this.lblFechaInicio.Size = new System.Drawing.Size(124, 21);
             this.lblFechaInicio.TabIndex = 23;
-            this.lblFechaInicio.Text = "Fecha Inicio:";
+            this.lblFechaInicio.Text = "Fecha Inicio (*)";
             // 
             // lblFechaFin
             // 
             this.lblFechaFin.AutoSize = true;
             this.lblFechaFin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.lblFechaFin.ForeColor = System.Drawing.Color.White;
-            this.lblFechaFin.Location = new System.Drawing.Point(307, 68);
+            this.lblFechaFin.Location = new System.Drawing.Point(358, 68);
             this.lblFechaFin.Name = "lblFechaFin";
-            this.lblFechaFin.Size = new System.Drawing.Size(85, 21);
+            this.lblFechaFin.Size = new System.Drawing.Size(104, 21);
             this.lblFechaFin.TabIndex = 22;
-            this.lblFechaFin.Text = "Fecha Fin:";
+            this.lblFechaFin.Text = "Fecha Fin (*)";
             // 
             // lblEstado
             // 
@@ -170,9 +170,9 @@ namespace TPG6.Formularios.Funcion
             this.lblEstado.ForeColor = System.Drawing.Color.White;
             this.lblEstado.Location = new System.Drawing.Point(22, 164);
             this.lblEstado.Name = "lblEstado";
-            this.lblEstado.Size = new System.Drawing.Size(65, 21);
+            this.lblEstado.Size = new System.Drawing.Size(84, 21);
             this.lblEstado.TabIndex = 20;
-            this.lblEstado.Text = "Estado:";
+            this.lblEstado.Text = "Estado (*)";
             // 
             // lblPelicula
             // 
@@ -181,9 +181,9 @@ namespace TPG6.Formularios.Funcion
             this.lblPelicula.ForeColor = System.Drawing.Color.White;
             this.lblPelicula.Location = new System.Drawing.Point(22, 115);
             this.lblPelicula.Name = "lblPelicula";
-            this.lblPelicula.Size = new System.Drawing.Size(75, 21);
+            this.lblPelicula.Size = new System.Drawing.Size(94, 21);
             this.lblPelicula.TabIndex = 18;
-            this.lblPelicula.Text = "Pelicula:";
+            this.lblPelicula.Text = "Pelicula (*)";
             // 
             // lblSala
             // 
@@ -192,13 +192,13 @@ namespace TPG6.Formularios.Funcion
             this.lblSala.ForeColor = System.Drawing.Color.White;
             this.lblSala.Location = new System.Drawing.Point(22, 68);
             this.lblSala.Name = "lblSala";
-            this.lblSala.Size = new System.Drawing.Size(46, 21);
+            this.lblSala.Size = new System.Drawing.Size(65, 21);
             this.lblSala.TabIndex = 15;
-            this.lblSala.Text = "Sala:";
+            this.lblSala.Text = "Sala (*)";
             // 
             // maskedTextBox1
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(133, 22);
+            this.maskedTextBox1.Location = new System.Drawing.Point(166, 23);
             this.maskedTextBox1.Mask = "00/00/0000 00:00";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(138, 20);
@@ -213,9 +213,9 @@ namespace TPG6.Formularios.Funcion
             this.lblFechaHora.ForeColor = System.Drawing.Color.White;
             this.lblFechaHora.Location = new System.Drawing.Point(22, 23);
             this.lblFechaHora.Name = "lblFechaHora";
-            this.lblFechaHora.Size = new System.Drawing.Size(112, 21);
+            this.lblFechaHora.Size = new System.Drawing.Size(131, 21);
             this.lblFechaHora.TabIndex = 13;
-            this.lblFechaHora.Text = "Fecha y Hora:";
+            this.lblFechaHora.Text = "Fecha y Hora (*)";
             // 
             // funcionBindingSource
             // 
@@ -238,7 +238,7 @@ namespace TPG6.Formularios.Funcion
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.ClientSize = new System.Drawing.Size(686, 390);
+            this.ClientSize = new System.Drawing.Size(745, 390);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.panelBackAltaFuncion);
             this.Name = "AltaFuncion";

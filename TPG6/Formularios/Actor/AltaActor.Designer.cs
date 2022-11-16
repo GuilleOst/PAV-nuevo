@@ -142,22 +142,22 @@ namespace TPG6.Formularios.Actores
             this.lblApellido.AutoSize = true;
             this.lblApellido.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.lblApellido.ForeColor = System.Drawing.Color.White;
-            this.lblApellido.Location = new System.Drawing.Point(273, 29);
+            this.lblApellido.Location = new System.Drawing.Point(263, 26);
             this.lblApellido.Name = "lblApellido";
-            this.lblApellido.Size = new System.Drawing.Size(66, 19);
+            this.lblApellido.Size = new System.Drawing.Size(86, 19);
             this.lblApellido.TabIndex = 1;
-            this.lblApellido.Text = "Apellido";
+            this.lblApellido.Text = "Apellido (*)";
             // 
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
             this.lblNombre.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.lblNombre.ForeColor = System.Drawing.Color.White;
-            this.lblNombre.Location = new System.Drawing.Point(21, 29);
+            this.lblNombre.Location = new System.Drawing.Point(5, 26);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(65, 19);
+            this.lblNombre.Size = new System.Drawing.Size(85, 19);
             this.lblNombre.TabIndex = 0;
-            this.lblNombre.Text = "Nombre";
+            this.lblNombre.Text = "Nombre (*)";
             // 
             // lblRegistroActor
             // 

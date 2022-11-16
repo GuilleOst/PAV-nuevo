@@ -102,7 +102,7 @@
             // rpvFuncion
             // 
             this.rpvFuncion.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rpvFuncion.LocalReport.ReportEmbeddedResource = "ProbandoMigrar.Estadisticas.Funcion.EstadisticaFuncion.rdlc";
+            this.rpvFuncion.LocalReport.ReportEmbeddedResource = "TPG6.Estadisticas.Funcion.EstadisticaFuncion.rdlc";
             this.rpvFuncion.Location = new System.Drawing.Point(0, 155);
             this.rpvFuncion.Name = "rpvFuncion";
             this.rpvFuncion.ServerReport.BearerToken = null;

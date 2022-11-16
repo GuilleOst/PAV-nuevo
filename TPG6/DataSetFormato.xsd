@@ -29,7 +29,7 @@ SELECT codFormato, descripcion FROM Formato WHERE (codFormato = SCOPE_IDENTITY()
                   </DbCommand>
                 </InsertCommand>
                 <SelectCommand>
-                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
                     <CommandText>SELECT codFormato, descripcion FROM dbo.Formato</CommandText>
                     <Parameters />
                   </DbCommand>
@@ -62,11 +62,11 @@ SELECT codFormato, descripcion FROM Formato WHERE (codFormato = @codFormato)</Co
   <xs:element name="DataSetFormato" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSetFormato" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DataSetFormato">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="Formato" msprop:Generator_RowClassName="FormatoRow" msprop:Generator_RowEvHandlerName="FormatoRowChangeEventHandler" msprop:Generator_RowDeletedName="FormatoRowDeleted" msprop:Generator_RowDeletingName="FormatoRowDeleting" msprop:Generator_RowEvArgName="FormatoRowChangeEvent" msprop:Generator_TablePropName="Formato" msprop:Generator_RowChangedName="FormatoRowChanged" msprop:Generator_UserTableName="Formato" msprop:Generator_RowChangingName="FormatoRowChanging" msprop:Generator_TableClassName="FormatoDataTable" msprop:Generator_TableVarName="tableFormato">
+        <xs:element name="Formato" msprop:Generator_RowEvHandlerName="FormatoRowChangeEventHandler" msprop:Generator_RowDeletedName="FormatoRowDeleted" msprop:Generator_RowDeletingName="FormatoRowDeleting" msprop:Generator_RowEvArgName="FormatoRowChangeEvent" msprop:Generator_TablePropName="Formato" msprop:Generator_RowChangedName="FormatoRowChanged" msprop:Generator_UserTableName="Formato" msprop:Generator_RowChangingName="FormatoRowChanging" msprop:Generator_RowClassName="FormatoRow" msprop:Generator_TableClassName="FormatoDataTable" msprop:Generator_TableVarName="tableFormato">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="codFormato" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="codFormato" msprop:Generator_ColumnPropNameInTable="codFormatoColumn" msprop:Generator_ColumnPropNameInRow="codFormato" msprop:Generator_ColumnVarNameInTable="columncodFormato" type="xs:int" />
-              <xs:element name="descripcion" msprop:Generator_UserColumnName="descripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion">
+              <xs:element name="codFormato" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInTable="codFormatoColumn" msprop:Generator_ColumnPropNameInRow="codFormato" msprop:Generator_UserColumnName="codFormato" msprop:Generator_ColumnVarNameInTable="columncodFormato" type="xs:int" />
+              <xs:element name="descripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_UserColumnName="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="50" />

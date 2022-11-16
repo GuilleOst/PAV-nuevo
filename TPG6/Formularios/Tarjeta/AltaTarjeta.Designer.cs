@@ -121,9 +121,9 @@ namespace TPG6.Formularios.Tarjeta
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(24, 107);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 21);
+            this.label4.Size = new System.Drawing.Size(80, 21);
             this.label4.TabIndex = 27;
-            this.label4.Text = "Banco:";
+            this.label4.Text = "Banco (*)";
             // 
             // label3
             // 
@@ -132,9 +132,9 @@ namespace TPG6.Formularios.Tarjeta
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(21, 61);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(104, 21);
+            this.label3.Size = new System.Drawing.Size(123, 21);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Descripción:";
+            this.label3.Text = "Descripción (*)";
             // 
             // label2
             // 
@@ -143,9 +143,9 @@ namespace TPG6.Formularios.Tarjeta
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(21, 23);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 21);
+            this.label2.Size = new System.Drawing.Size(96, 21);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Nombre:";
+            this.label2.Text = "Nombre (*)";
             // 
             // AltaTarjeta
             // 

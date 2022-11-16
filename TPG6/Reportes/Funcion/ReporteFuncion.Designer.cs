@@ -320,7 +320,7 @@
             // 
             this.reportViewer1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(28)))));
             this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.reportViewer1.LocalReport.ReportEmbeddedResource = "ProbandoMigrar.Reportes.Funcion.ReporteFuncion.rdlc";
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "TPG6.Reportes.Funcion.ReporteFuncion.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(0, 250);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ServerReport.BearerToken = null;

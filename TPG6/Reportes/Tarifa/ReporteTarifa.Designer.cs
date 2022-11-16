@@ -283,7 +283,7 @@
             // 
             this.rvTarifa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(28)))));
             this.rvTarifa.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rvTarifa.LocalReport.ReportEmbeddedResource = "ProbandoMigrar.Reportes.Tarifa.ReporteInforme.rdlc";
+            this.rvTarifa.LocalReport.ReportEmbeddedResource = "TPG6.Reportes.Tarifa.ReporteInforme.rdlc";
             this.rvTarifa.Location = new System.Drawing.Point(0, 230);
             this.rvTarifa.Name = "rvTarifa";
             this.rvTarifa.ServerReport.BearerToken = null;

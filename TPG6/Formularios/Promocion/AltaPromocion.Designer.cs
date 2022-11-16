@@ -76,13 +76,13 @@ namespace TPG6.Formularios.Promocion
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(20, 122);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 21);
+            this.label1.Size = new System.Drawing.Size(124, 21);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Fecha Inicio:";
+            this.label1.Text = "Fecha Inicio (*)";
             // 
             // mtbValor
             // 
-            this.mtbValor.Location = new System.Drawing.Point(138, 180);
+            this.mtbValor.Location = new System.Drawing.Point(151, 180);
             this.mtbValor.Mask = "99999";
             this.mtbValor.Name = "mtbValor";
             this.mtbValor.Size = new System.Drawing.Size(79, 20);
@@ -98,9 +98,9 @@ namespace TPG6.Formularios.Promocion
             this.lblValor.ForeColor = System.Drawing.Color.White;
             this.lblValor.Location = new System.Drawing.Point(21, 177);
             this.lblValor.Name = "lblValor";
-            this.lblValor.Size = new System.Drawing.Size(55, 21);
+            this.lblValor.Size = new System.Drawing.Size(73, 21);
             this.lblValor.TabIndex = 4;
-            this.lblValor.Text = "Valor:";
+            this.lblValor.Text = "Valor (*)";
             // 
             // lblFin
             // 
@@ -108,15 +108,15 @@ namespace TPG6.Formularios.Promocion
             this.lblFin.BackColor = System.Drawing.Color.Transparent;
             this.lblFin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.lblFin.ForeColor = System.Drawing.Color.White;
-            this.lblFin.Location = new System.Drawing.Point(249, 122);
+            this.lblFin.Location = new System.Drawing.Point(269, 123);
             this.lblFin.Name = "lblFin";
-            this.lblFin.Size = new System.Drawing.Size(85, 21);
+            this.lblFin.Size = new System.Drawing.Size(104, 21);
             this.lblFin.TabIndex = 8;
-            this.lblFin.Text = "Fecha Fin:";
+            this.lblFin.Text = "Fecha Fin (*)";
             // 
             // mtbInicio
             // 
-            this.mtbInicio.Location = new System.Drawing.Point(138, 120);
+            this.mtbInicio.Location = new System.Drawing.Point(151, 120);
             this.mtbInicio.Mask = "00/00/0000";
             this.mtbInicio.Name = "mtbInicio";
             this.mtbInicio.Size = new System.Drawing.Size(79, 20);
@@ -157,21 +157,21 @@ namespace TPG6.Formularios.Promocion
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(21, 16);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 21);
+            this.label2.Size = new System.Drawing.Size(96, 21);
             this.label2.TabIndex = 11;
-            this.label2.Text = "Nombre:";
+            this.label2.Text = "Nombre (*)";
             // 
             // txtNombre
             // 
             this.txtNombre.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.txtNombre.Location = new System.Drawing.Point(139, 13);
+            this.txtNombre.Location = new System.Drawing.Point(152, 13);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(113, 29);
             this.txtNombre.TabIndex = 1;
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(139, 62);
+            this.txtDescripcion.Location = new System.Drawing.Point(152, 62);
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(258, 40);
             this.txtDescripcion.TabIndex = 19;
@@ -207,7 +207,7 @@ namespace TPG6.Formularios.Promocion
             this.panelBackAltaPromocion.Controls.Add(this.label1);
             this.panelBackAltaPromocion.Location = new System.Drawing.Point(44, 68);
             this.panelBackAltaPromocion.Name = "panelBackAltaPromocion";
-            this.panelBackAltaPromocion.Size = new System.Drawing.Size(497, 300);
+            this.panelBackAltaPromocion.Size = new System.Drawing.Size(525, 300);
             this.panelBackAltaPromocion.TabIndex = 14;
             // 
             // AltaPromocion
@@ -215,7 +215,7 @@ namespace TPG6.Formularios.Promocion
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.ClientSize = new System.Drawing.Size(581, 421);
+            this.ClientSize = new System.Drawing.Size(619, 421);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.panelBackAltaPromocion);
             this.Name = "AltaPromocion";

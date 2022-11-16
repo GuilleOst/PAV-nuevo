@@ -47,67 +47,67 @@ namespace TPG6.Formularios.MedioPago
             // 
             this.lblNombre.AutoSize = true;
             this.lblNombre.BackColor = System.Drawing.Color.Transparent;
-            this.lblNombre.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblNombre.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.lblNombre.ForeColor = System.Drawing.Color.White;
-            this.lblNombre.Location = new System.Drawing.Point(33, 21);
+            this.lblNombre.Location = new System.Drawing.Point(28, 18);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(77, 21);
+            this.lblNombre.Size = new System.Drawing.Size(96, 21);
             this.lblNombre.TabIndex = 13;
-            this.lblNombre.Text = "Nombre:";
+            this.lblNombre.Text = "Nombre (*)";
             // 
             // lblDescripcion
             // 
             this.lblDescripcion.AutoSize = true;
-            this.lblDescripcion.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDescripcion.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.lblDescripcion.ForeColor = System.Drawing.Color.White;
-            this.lblDescripcion.Location = new System.Drawing.Point(33, 68);
+            this.lblDescripcion.Location = new System.Drawing.Point(28, 59);
             this.lblDescripcion.Name = "lblDescripcion";
-            this.lblDescripcion.Size = new System.Drawing.Size(104, 21);
+            this.lblDescripcion.Size = new System.Drawing.Size(123, 21);
             this.lblDescripcion.TabIndex = 14;
-            this.lblDescripcion.Text = "Descripción:";
+            this.lblDescripcion.Text = "Descripción (*)";
             // 
             // txtNombre
             // 
-            this.txtNombre.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtNombre.Location = new System.Drawing.Point(209, 115);
+            this.txtNombre.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.txtNombre.Location = new System.Drawing.Point(178, 15);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(200, 29);
+            this.txtNombre.Size = new System.Drawing.Size(172, 29);
             this.txtNombre.TabIndex = 15;
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtDescripcion.Location = new System.Drawing.Point(209, 157);
+            this.txtDescripcion.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.txtDescripcion.Location = new System.Drawing.Point(178, 51);
             this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(200, 29);
+            this.txtDescripcion.Size = new System.Drawing.Size(172, 29);
             this.txtDescripcion.TabIndex = 16;
             // 
             // lblTarjeta
             // 
             this.lblTarjeta.AutoSize = true;
-            this.lblTarjeta.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblTarjeta.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.lblTarjeta.ForeColor = System.Drawing.Color.White;
-            this.lblTarjeta.Location = new System.Drawing.Point(33, 116);
+            this.lblTarjeta.Location = new System.Drawing.Point(28, 101);
             this.lblTarjeta.Name = "lblTarjeta";
-            this.lblTarjeta.Size = new System.Drawing.Size(66, 21);
+            this.lblTarjeta.Size = new System.Drawing.Size(85, 21);
             this.lblTarjeta.TabIndex = 17;
-            this.lblTarjeta.Text = "Tarjeta:";
+            this.lblTarjeta.Text = "Tarjeta (*)";
             // 
             // lblError
             // 
             this.lblError.AutoSize = true;
             this.lblError.ForeColor = System.Drawing.Color.Red;
-            this.lblError.Location = new System.Drawing.Point(112, 258);
+            this.lblError.Location = new System.Drawing.Point(96, 224);
             this.lblError.Name = "lblError";
-            this.lblError.Size = new System.Drawing.Size(0, 15);
+            this.lblError.Size = new System.Drawing.Size(0, 13);
             this.lblError.TabIndex = 27;
             // 
             // lblTitulo
             // 
             this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Font = new System.Drawing.Font("Segoe UI Black", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblTitulo.Font = new System.Drawing.Font("Segoe UI Black", 15F, System.Drawing.FontStyle.Bold);
             this.lblTitulo.ForeColor = System.Drawing.Color.White;
-            this.lblTitulo.Location = new System.Drawing.Point(53, 33);
+            this.lblTitulo.Location = new System.Drawing.Point(45, 29);
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(207, 28);
             this.lblTitulo.TabIndex = 24;
@@ -118,11 +118,11 @@ namespace TPG6.Formularios.MedioPago
             this.btnCargarMP.BackColor = System.Drawing.SystemColors.HotTrack;
             this.btnCargarMP.FlatAppearance.BorderSize = 0;
             this.btnCargarMP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCargarMP.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnCargarMP.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.btnCargarMP.ForeColor = System.Drawing.Color.White;
-            this.btnCargarMP.Location = new System.Drawing.Point(264, 196);
+            this.btnCargarMP.Location = new System.Drawing.Point(226, 170);
             this.btnCargarMP.Name = "btnCargarMP";
-            this.btnCargarMP.Size = new System.Drawing.Size(92, 37);
+            this.btnCargarMP.Size = new System.Drawing.Size(79, 32);
             this.btnCargarMP.TabIndex = 23;
             this.btnCargarMP.Text = "Cargar";
             this.btnCargarMP.UseVisualStyleBackColor = false;
@@ -131,34 +131,34 @@ namespace TPG6.Formularios.MedioPago
             // cmbTarjeta
             // 
             this.cmbTarjeta.FormattingEnabled = true;
-            this.cmbTarjeta.Location = new System.Drawing.Point(209, 211);
+            this.cmbTarjeta.Location = new System.Drawing.Point(178, 101);
             this.cmbTarjeta.Name = "cmbTarjeta";
-            this.cmbTarjeta.Size = new System.Drawing.Size(200, 23);
+            this.cmbTarjeta.Size = new System.Drawing.Size(172, 21);
             this.cmbTarjeta.TabIndex = 26;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(28)))));
             this.panel1.Controls.Add(this.btnCargarMP);
+            this.panel1.Controls.Add(this.cmbTarjeta);
             this.panel1.Controls.Add(this.lblNombre);
             this.panel1.Controls.Add(this.lblDescripcion);
+            this.panel1.Controls.Add(this.txtDescripcion);
             this.panel1.Controls.Add(this.lblTarjeta);
-            this.panel1.Location = new System.Drawing.Point(53, 97);
+            this.panel1.Controls.Add(this.txtNombre);
+            this.panel1.Location = new System.Drawing.Point(45, 84);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(405, 276);
+            this.panel1.Size = new System.Drawing.Size(374, 239);
             this.panel1.TabIndex = 28;
             // 
             // AltaMedioPago
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.ClientSize = new System.Drawing.Size(522, 450);
+            this.ClientSize = new System.Drawing.Size(447, 390);
             this.Controls.Add(this.lblError);
-            this.Controls.Add(this.cmbTarjeta);
             this.Controls.Add(this.lblTitulo);
-            this.Controls.Add(this.txtDescripcion);
-            this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.panel1);
             this.Name = "AltaMedioPago";
             this.Text = "AltaMedioPago";

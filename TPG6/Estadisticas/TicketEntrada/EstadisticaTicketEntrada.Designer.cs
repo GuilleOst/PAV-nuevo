@@ -226,7 +226,7 @@
             // rpvEntradas
             // 
             this.rpvEntradas.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rpvEntradas.LocalReport.ReportEmbeddedResource = "ProbandoMigrar.Estadisticas.TicketEntrada.EstadisticaTicketEntrada.rdlc";
+            this.rpvEntradas.LocalReport.ReportEmbeddedResource = "TPG6.Estadisticas.TicketEntrada.EstadisticaTicketEntrada.rdlc";
             this.rpvEntradas.Location = new System.Drawing.Point(0, 200);
             this.rpvEntradas.Name = "rpvEntradas";
             this.rpvEntradas.ServerReport.BearerToken = null;

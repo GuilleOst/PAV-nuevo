@@ -183,7 +183,7 @@
             // reportViewer1
             // 
             this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.reportViewer1.LocalReport.ReportEmbeddedResource = "ProbandoMigrar.Estadisticas.Empleado.EstadisticaEmpleado.rdlc";
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "TPG6.Estadisticas.Empleado.EstadisticaEmpleado.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(0, 203);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ServerReport.BearerToken = null;
